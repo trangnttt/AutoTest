@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test.describe('Tsdjfhjsf', () => {
+test.describe('TS Login', () => {
     test.beforeEach(async ({ page }) => {
         await page.goto('https://www.saucedemo.com/');
     })
