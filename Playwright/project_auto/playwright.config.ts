@@ -23,12 +23,12 @@ export default defineConfig({
   workers: 1,//rocess.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-  timeout: 30000, // timeout mặc định cho mỗi test (30 giây)
+  //timeout: 30000, // timeout mặc định cho mỗi test (30 giây)
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    actionTimeout: 10000, // timeout mặc định cho mỗi hành động (click, fill...)
-    navigationTimeout: 20000, // timeout riêng cho page.goto và chuyển trang
+    //actionTimeout: 10000, // timeout mặc định cho mỗi hành động (click, fill...)
+    //navigationTimeout: 20000, // timeout riêng cho page.goto và chuyển trang
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
